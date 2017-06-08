@@ -30,6 +30,7 @@ nav {
 	top: 0;
 	background: pink;
 	padding: 20px 0;
+	z-index: 5;
 }
 
 nav ul li {
@@ -87,7 +88,18 @@ section p {
 	display: inline-block;
 }
 
-
+.article::after {
+	content: "1";
+	position: absolute;
+	background: red;
+	width: 50%;
+	height: 50%;
+	left: -50%;
+	right: -50%;
+	font-size: 100%;
+	text-align: center;
+	border-radius: 50%;
+}
 
 
 
