@@ -49,6 +49,10 @@ a {
   padding: 10px;
   font-size: 15px;
   text-decoration: none; }
+  a:hover {
+    color: blue;
+    background-color: yellow;
+    text-decoration: none; }
 
 .section-to-ideas {
   background-image: url("../images/fullbg.jpg");
