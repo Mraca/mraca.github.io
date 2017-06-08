@@ -88,8 +88,21 @@ section p {
 	display: inline-block;
 }
 
-.article::before {
+.article-one::before {
 	content: "1.";
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	left: -30%;
+	right: -50%;
+	font-size: 400%;
+	text-align: center;
+	border-radius: 50%;
+	color: pink;
+}
+
+.article-two::before {
+	content: "2.";
 	position: absolute;
 	width: 50%;
 	height: 50%;
