@@ -52,6 +52,9 @@ p {
 
 .article_text {
 	color: black;
+	&:first-letter {
+		font-size: 2em;
+	}
 }
 
 a {

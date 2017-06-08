@@ -43,6 +43,8 @@ p {
 
 .article_text {
   color: black; }
+  .article_text:first-letter {
+    font-size: 2em; }
 
 a {
   border: 2px solid #ff6b83;
