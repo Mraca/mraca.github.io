@@ -72,7 +72,7 @@ section p {
   margin: 10px 0;
   display: inline-block; }
 
-.article::after {
+.article::before {
   content: "1";
   position: absolute;
   background: red;
