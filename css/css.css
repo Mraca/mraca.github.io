@@ -43,8 +43,10 @@ p {
 
 .article_text {
   color: black; }
-  .article_text:first-letter {
+  .article_text::first-letter {
     font-size: 2em; }
+  .article_text::selection {
+    background: hotpink; }
 
 a {
   border: 2px solid #ff6b83;

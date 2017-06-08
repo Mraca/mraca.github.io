@@ -52,8 +52,11 @@ p {
 
 .article_text {
 	color: black;
-	&:first-letter {
+	&::first-letter {
 		font-size: 2em;
+	}
+	&::selection {
+		background: hotpink;
 	}
 }
 
