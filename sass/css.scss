@@ -101,6 +101,14 @@ section p {
 	color: pink;
 }
 
+ul {
+	li {
+		&:hover {
+			color: red;
+		}
+	}
+}
+
 
 
 

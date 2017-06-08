@@ -83,3 +83,6 @@ section p {
   text-align: center;
   border-radius: 50%;
   color: pink; }
+
+ul li:hover {
+  color: red; }
