@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 * {
   box-sizing: border-box; }
 
 body {
   font-family: 'Roboto', sans-serif; }
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif; }
 
 header {
   height: 445px;
@@ -105,4 +109,12 @@ section p {
   color: pink; }
 
 ul li:hover {
-  color: yellow; }
+  color: green; }
+
+input {
+  border: 0;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 20px; }
+
+textarea {
+  border: 2px solid #fff; }
